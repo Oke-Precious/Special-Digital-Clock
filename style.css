@@ -13,14 +13,28 @@ body{
 }
 .clockContainer{
     height: 300px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    color: white;
     width: 60%;
     /* background-color: white; */
+}
+.tnContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dayContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.day{
+    font-size: 30pt;
+    font-family: Luxurious Script;
+    margin: 0;
 }
 .timeNumber{
     font-size: 150pt;
     font-family:Orbitron;
-    color: white;
+    
 }
