@@ -13,9 +13,14 @@ body{
 }
 .clockContainer{
     height: 300px;
-    width: 90%;
-    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    /* background-color: white; */
 }
 .timeNumber{
-    
+    font-size: 150pt;
+    font-family:Orbitron;
+    color: white;
 }
