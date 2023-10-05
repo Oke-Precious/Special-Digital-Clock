@@ -6,20 +6,23 @@
     <title>Special Digital Clock</title><link href="https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Luxurious+Script:regular" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
+<body onload="clock()">
     <div class="clockContainer">
         <div class="dayContainer">
             <div></div>
             <p class="day">Thursday</p>
         </div>
         <div class="tnContainer">
-            <h1 class="timeNumber">88</h1>
+            <h1 class="timeNumber" id="hour">88</h1>
             <span class="timeNumber">:</span>
-            <h1 class="timeNumber">88</h1>
+            <h1 class="timeNumber" id="min">88</h1>
             <span class="timeNumber">:</span>
-            <h1 class="timeNumber">88</h1>
+            <h1 class="timeNumber" id="sec">88</h1>
         </div>
     </div>
+
+    <script src=clock.js></script>
 </body>
 </html>
