@@ -1,11 +1,6 @@
-
-let daysOfWeek = new Date().getDay();
-let dayName = ["Sunday", "Monday", "Tuesday", "Wednessday", "Thursday", "Friday", "Saturday"]
-let allDay = dayName[daysOfWeek]
-// console.log("Today is" + allDay)
-let clock =()=>{
-    day.innerHTML = allDay;
-   hour.innerHTML = new Date().getHours();
-   min.innerHTML = new Date().getMinutes();
-   sec.innerHTML = new Date().getSeconds();
-} 
+let clock=()=>{
+    // alert(new Date().toLocaleTimeString())
+    time.innerHTML = new Date().toLocaleTimeString('en-US', { hour:'2-digit', minute:'2-digit', second:'2-digit'});
+    day.innerHTML = new Date().toLocaleDateString('en-US', { weekday: 'long'});
+}
+setInterval(clock, 1000)

@@ -18,9 +18,9 @@ body{
     /* background-color: white; */
 }
 .tnContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    color: white;
+    font-size: 100pt;
+    font-family:Orbitron;
 }
 .dayContainer{
     display: flex;
@@ -32,9 +32,4 @@ body{
     font-size: 30pt;
     font-family: Luxurious Script;
     margin: 0;
-}
-.timeNumber{
-    font-size: 150pt;
-    font-family:Orbitron;
-    
 }
