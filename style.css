@@ -1,7 +1,7 @@
 *{
     text-align: center;
     padding: 0;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin: 0;
     box-sizing: border;
 }
@@ -22,8 +22,8 @@ body{
 .tnContainer{
     color: white;
     width: 100%;
-    font-size: 150px;
-    font-family:Orbitron;
+    font-size: 250px;
+    font-family:"digital-7"
 }
 .dayContainer{
     display: flex;
@@ -36,18 +36,38 @@ body{
     font-family: Luxurious Script;
     margin: 0;
 }
-@media screen and (max-width:1024px){
-
+@media screen and (max-width:1300px){
+    .tnContainer{
+        color: white;
+        width: 100%;
+        font-size: 200px;
+    }
+}
+@media screen and (max-width:1200px){
+    .tnContainer{
+        color: white;
+        width: 100%;
+        /* font-size: 170px; */
+    }
+    .clockContainer{
+        width: 90% !important;
+    }
 }
 @media screen and (max-width:1000px) {
     .tnContainer{
         color: white;
         width: 100%;
-        font-size: 100px;
-        font-family:Orbitron;
+        font-size: 150px;
     }
     .clockContainer{
         width: 95% !important;
     }
+}
+    @media screen and (max-width:7z00px) {
+        .tnContainer{
+            color: white;
+            width: 100%;
+            font-size: 100px;
+        }
     
 }
